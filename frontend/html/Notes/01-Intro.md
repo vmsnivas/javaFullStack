@@ -57,3 +57,12 @@
 
     - div
         - Part of webpage
+
+---
+
+- Symantic Elements
+    - Meaningful Elements
+        - Header
+        - Main
+        - Section
+        - Footer
