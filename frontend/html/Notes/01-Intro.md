@@ -63,6 +63,15 @@
 - Symantic Elements
     - Meaningful Elements
         - Header
+        - nav
         - Main
         - Section
+        - figure
+        - figcaption
+        - details
+        - summary
+        - article
+        - aside
         - Footer
+
+---
