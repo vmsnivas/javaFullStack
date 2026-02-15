@@ -1,0 +1,15 @@
+p,span{
+    background-color: yellow;
+    width: 24%;
+    height: 150px;
+    padding: 0%;
+    margin: 0%;
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+    background-color: green;
+    color: white;
+    padding: 15px 50px;
+}
