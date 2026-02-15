@@ -5,6 +5,7 @@
 
 body{
     margin: 0%;
+    background-color: black;
 }
 
 .hero{
@@ -69,7 +70,7 @@ nav select{
 }
 
 .content input{
-    width: 250px;
+    width: 350px;
     height: 50px;
     font-size: 20px;
     background-color: transparent;
@@ -83,4 +84,108 @@ nav select{
     background-color: red;
     border: 1px solid white;
     font-size: 25px;
+}
+
+.trending,
+.reasons,
+.membership{
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+    background-color: black;
+    color: white;
+    clear: both;
+    display: table;
+}
+
+.trending h2,
+.reasons h2,
+.faq h2{
+    text-align: left;
+}
+
+.trend,
+.reason{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.reason figure{
+    border: 1px solid white;
+    padding: 20px;
+}
+
+figure{
+    margin: 0%;
+}
+
+figure img{
+    width: 100%;
+}
+
+.faq{
+    width: 80%;
+    margin: 30px auto;
+    text-align: center;
+    color: white;
+}
+
+details{
+    background-color: darkolivegreen;
+    color: white;
+    text-align: start;
+    padding: 20px;
+    border: 10px solid black;
+}
+
+summary{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.membership input{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+
+.membership button{
+    width: 200px;
+    height: 50px;
+    background-color: red;
+    border: 1px solid white;
+    font-size: 25px;
+}
+
+.footer{
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+.footlist{
+    width: 25%;
+    padding: 10px;
+    float: left;
+}
+
+.footer p{
+    margin: 50px auto;
+}
+
+ul li{
+    width: 100%;
+    display: inline-block;
+    padding: 15px 20px;
+}
+
+.lang{
+    text-align: start;
+    margin: 40px auto;
+    display: block;
+    clear: both;
 }
