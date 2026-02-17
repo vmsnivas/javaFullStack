@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+.hero{
+    width: 100%;
+    clear: both;
+}
+
+header{
+    width: 100%;
+    background-color: #1F487E;
+    margin: auto;
+    padding: 12px 0;
+}
+
+header div{
+    width: 80%;
+    margin: auto;
+}
+
+.hero header p{
+    color: white;
+    display: inline;
+    padding: 0px 20px;
+}
+
+.navmenu{
+    width: 100%;
+    margin: auto;
+    background-color: white;
+    clear: both;
+    display: flex;
+    align-items: center;
+}
+
+.navmenu .logo{
+    width: 30%;
+    padding-left: 100px;
+}
+
+.navmenu .logo img{
+    height: 80px;
+}
+
+.navmenu nav{
+    width: 60%;
+    margin: 0 5%;
+    text-align: center;
+}
+
+.navmenu nav button{
+    margin: 0 10px;
+    border: none;
+    font-weight: 650;
+    padding-bottom: 20px;
+    background-color: transparent;
+}
+
+.banner{
+    width: 90%;
+    margin: auto;
+    height: 72vh;
+    display: flex;
+    background-image: url("assets/banner.png");
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    clear: both;
+}
+
+.banner .message{
+    margin: 200px 0;
+    padding: 50px;
+}
+
+.banner .message button{
+    width: 150px;
+    height: 50px;
+    background-color: #1D3461;
+    color: white;
+    font-size: 15px;
+}
+
+.welcome{
+    width: 90%;
+    margin: auto;
+}
+
+.welcome .content{
+    margin: 30px;
+    text-align: center;
+    align-content: end;
+}
+
+.welcome .content h3{
+    color: black;
+    font-size: 25px;
+}
+
+.welcome .content span{
+    color: #1D3461;
+    font-size: 25px;
+}
+
+#hr1{
+    color: #1F487E;
+    margin: 0%;
+    font-size: xx-small;
+}
+
+#hr2{
+    color: orange;
+    margin: 0%;
+    font-size: xx-small;
+}
+
+.servicelist{
+    height: 80vh;
+    background-image: url("assets/backgrounds/bg1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.servicelist .content{
+    color: white;
+    text-align: center;
+}
+
+.servicelist .content h2{
+    margin: 0%;
+}
+
+.servicelist .content span{
+    color: yellow;
+}
+
+.servicelist .content p{
+    margin: 5px auto;
+    font-size: 18px;
+}
+
+.servicelist .services{
+    width: 90%;
+    display: flex;
+    text-align: center;
+    margin: auto;
+}
+
+.servicelist .services .service{
+    width: 30%;
+    background-color: white;
+    color: black;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.servicelist .services .service figure{
+    margin: 15px;
+}
+
+.servicelist .services .service img{
+    width: 250px;
+}
+
+.servicelist .services .service button{
+    width: 120px;
+    height: 50px;
+    background-color: #1F487E;
+    color: white;
+}
+
+.quoteform{
+    width: 90%;
+    height: 70vh;
+    margin: auto;
+    clear: both;
+}
+
+.quoteform .content{
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    float: left;
+}
+
+.quoteform .content h2{
+    margin: 0%;
+}
+
+.quoteform .content span{
+    color: #247BA0;
+}
+
+.quoteform .content p{
+    margin: 5px auto;
+    font-size: 18px;
+}
+
+.quoteform .quote img{
+    width: 45%;
+}
+
+.quoteform .quote .form{
+    width: 50%;
+    float: right;
+    padding: 30px 0;
+}
+
+.quoteform .quote .form input,
+.quoteform .quote .form select,
+.quoteform .quote .form textarea{
+    width: 200px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid black;
+    display: inline-block;
+    margin: 30px;
+}
+
+.quoteform .quote .form textarea{
+    width: 470px;
+}
+
+.sellingpositions{
+    width: 100%;
+    background-image: url("assets/backgrounds/employee.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.usps{
+    width: 80%;
+    margin: auto;
+    clear: both;
+    display: block;
+}
+
+.usp{
+    display: flex;
+}
+
+.usp figure{
+    padding: 50px;
+}
