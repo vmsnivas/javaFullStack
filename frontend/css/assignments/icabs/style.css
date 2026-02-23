@@ -176,14 +176,16 @@ header div{
     color: white;
 }
 
-.quoteform{
+.quoteform,
+.ourProcess{
     width: 90%;
     height: 70vh;
     margin: auto;
     clear: both;
 }
 
-.quoteform .content{
+.quoteform .content,
+.ourProcess .content{
     width: 100%;
     background-color: white;
     color: black;
@@ -191,15 +193,19 @@ header div{
     float: left;
 }
 
-.quoteform .content h2{
+.quoteform .content h2,
+.ourProcess .content h2{
     margin: 0%;
 }
 
-.quoteform .content span{
+.quoteform .content span,
+.ourProcess .content span,
+.testimonial .tstheader span{
     color: #247BA0;
 }
 
-.quoteform .content p{
+.quoteform .content p,
+.ourProcess .content p{
     margin: 5px auto;
     font-size: 18px;
 }
@@ -253,4 +259,135 @@ header div{
 
 .usp figure{
     padding: 50px;
+}
+
+.processes{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    padding: 30px 0;
+}
+
+.process{
+    text-align: center;
+    width: 25%;
+}
+
+.process img{
+    width: 100px;
+    margin: 10px;
+}
+
+.process figcaption{
+    padding: 20px;
+}
+
+.moreDetails{
+    width: 100%;
+    height: 60vh;
+    background-color: #1F487E;
+}
+
+.details{
+    width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+.details img{
+    margin: 40px;
+    padding-left: 40px;
+}
+
+.detail{
+    width: 50%;
+    color: white;
+}
+
+.detail span{
+    color: yellow;
+}
+
+.special{
+    background-color: white;
+    color: black;
+    margin: 10px 0;
+    padding: 10px;
+    border: 10px solid white;
+}
+
+.testimonial{
+    width: 100%;
+    height: 50vh;
+    background-color: white;
+    padding: 5%;
+    text-align: center;
+}
+
+.tstheader,
+.tstcontent,
+.tstfooter{
+    width: 90%;
+    margin: auto;
+}
+
+.tstcontent{
+    text-align: justify;
+}
+
+.tstfooter{
+    text-align: right;
+}
+
+.tstfooter #hr1{
+    margin: 20px 0;
+}
+
+.tstfooter h5{
+    margin: 0%;
+}
+
+.tstfooter p{
+    margin: 8px 0;
+}
+
+.contactDetails{
+    background-color: #1F487E;
+    color: white;
+}
+
+.contacts{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.contact{
+    width: 25%;
+    margin: 15px;
+    padding: 10px;
+}
+
+.contact h4{
+    color: yellow;
+    text-align: left;
+}
+
+.contact ul{
+    padding-inline-start: 10px;
+}
+
+.contact ul li{
+    padding: 10px;
+}
+
+.footer{
+    background-color: #1D3461;
+    padding: 8px 25px;
+    color: white;
+}
+
+.footer .content{
+    width: 90%;
+    margin: auto;
 }
