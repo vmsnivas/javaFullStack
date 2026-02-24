@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+}
+
+.hero {
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.content1,
+.content2,
+.content3,
+.content4,
+.content5 {
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-property: all;
+}
+
+.content1:hover {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+.content2:hover {
+    transform: translateX(200px);
+}
+
+.content3:hover {
+    transform: translate(200px, 200px);
+}
+
+.content4:hover {
+    transform: rotate(360deg);
+}
+
+.content5:hover {
+    background-color: blue;
+    transform: scaleX(2);
+}
+
+.gradient {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 255, 0.5), rgba(0, 128, 0, 0.5)), url(../assets/images/c20-style.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: bgzoom;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+.gradient .content {
+    color: white;
+}
+
+.gradient .content h1 {
+    font-family: vskp;
+    animation-name: zoomInDown;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    font-size: 80px;
+}
+
+.gradient .content h1::after {
+    content: "Visakhapatnam";
+    animation: locations 10s alternate infinite 2s;
+    color: yellow;
+}
+
+@font-face {
+    font-family: vskp;
+    src: url('../assets/fonts/CartooneryDemoRegular.ttf');
+}
+
+@keyframes zoom {
+    0% {
+        font-size: 0px;
+    }
+
+    100% {
+        font-size: 90px;
+    }
+}
+
+@keyframes bgzoom {
+    0% {
+        background-size: 100%;
+    }
+
+    100% {
+        background-size: 150%;
+    }
+}
+
+@keyframes locations {
+    0% {
+        content: 'Visakhapatnam';
+    }
+
+    10% {
+        content: 'Araku';
+    }
+
+    20% {
+        content: 'RK Beach';
+    }
+
+    30% {
+        content: 'Bhimili';
+    }
+
+    40% {
+        content: 'Rishikonda';
+    }
+
+    50% {
+        content: 'Tantadi';
+    }
+
+    60% {
+        content: 'Lighthouse';
+    }
+
+    70% {
+        content: 'Yarada';
+    }
+
+    80% {
+        content: 'Lumbini Park';
+    }
+
+    90% {
+        content: 'Simhachalam';
+    }
+
+    100% {
+        content: 'Visakhapatnam';
+    }
+}

@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0%;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: lightblue;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.features{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feature{
+    width: 30%;
+    float: left;
+    padding: 10px;
+    background-color: darkblue;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.courses{
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.course{
+    width: 15%;
+    height: 150px;
+    background-color: red;
+}
+
+.end{
+    flex-direction: row;
+    align-items: end;
+}
+
+.message{
+    width: 250px;
+    height: 50px;
+    background-color: green;
+    color: white;
+    border: none;
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 1;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}

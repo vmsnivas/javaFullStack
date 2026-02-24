@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    margin: 0%;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course{
+    width: 25%;
+    padding: 20px;
+}
+
+@media (max-width:1200px) {
+    .course{
+        width: 30%;
+    }
+
+    .container{
+        justify-content: space-between;
+    }
+}
+
+@media (max-width:1000px) {
+    .course{
+        width: 50%;
+    }
+}
+
+@media (max-width:600px) {
+    .course{
+        width: 100%;
+    }
+}
