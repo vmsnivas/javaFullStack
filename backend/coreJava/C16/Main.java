@@ -13,5 +13,7 @@ class Main{
         b = sc.nextDouble();
 
         System.out.println("Multiplication of a & b is : " + (a*b));
+
+        sc.close();
     }
 }
