@@ -65,5 +65,6 @@ class ParamsCalculator{
                 System.out.println("!!! Wrong Input !!!");
             }
         }
+        scanner.close();
     }
 }

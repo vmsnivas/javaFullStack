@@ -15,5 +15,7 @@ class Day{
         else if(day==6) System.out.println("Saturday");
         else if(day==7) System.out.println("Sunday");
         else System.out.println("Wrong input!");
+
+        scanner.close();
     }
 }

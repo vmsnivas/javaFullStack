@@ -15,11 +15,13 @@ class SimpleCalculator{
         System.out.print("Enter the second number : ");
         double num2 = s.nextDouble();
 
-        if(ch == "+") System.out.println(num1 + num2);
-        else if(ch == "-") System.out.println(num1 - num2);
-        else if(ch == "*") System.out.println(num1 * num2);
-        else if(ch == "/") System.out.println(num1 / num2);
-        else if(ch == "%") System.out.println(num1 % num2);
+        if(ch == '+') System.out.println(num1 + num2);
+        else if(ch == '-') System.out.println(num1 - num2);
+        else if(ch == '*') System.out.println(num1 * num2);
+        else if(ch == '/') System.out.println(num1 / num2);
+        else if(ch == '%') System.out.println(num1 % num2);
         else System.out.println("Unsupported operation!");
+
+        s.close();
     }
 }

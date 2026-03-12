@@ -24,5 +24,6 @@ class Day{
                     break;
             default: System.out.println("Wrong Input!");
         }
+        scanner.close();
     }
 }

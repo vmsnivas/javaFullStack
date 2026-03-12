@@ -6,6 +6,7 @@ class Even {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
+        scanner.close();
         if(num % 2 == 0) {
             return true;
         } else {

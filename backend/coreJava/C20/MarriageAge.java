@@ -15,5 +15,7 @@ class MarriageAge{
         if(gender.equals("male") && age >= 21) System.out.println("You can get married");
         else if(gender.equals("female") && age >= 18) System.out.println("You can get married");
         else System.out.println("You cannot get married");
+
+        s.close();
     }
 }

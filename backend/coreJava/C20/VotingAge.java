@@ -11,5 +11,7 @@ class VotingAge{
 
         if(age >= 18) System.out.println("You can cast your vote");
         else System.out.println("You cannot cast your vote");
+
+        s.close();
     }
 }

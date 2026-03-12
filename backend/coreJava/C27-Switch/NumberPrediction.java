@@ -13,5 +13,7 @@ class NumberPrediction{
 
         if(num == userNum) System.out.println("Wow, you are a genius...");
         else System.out.println("Wrong prediction. Try next time! \nThe number was : " + num);
+
+        scanner.close();
     }
 }

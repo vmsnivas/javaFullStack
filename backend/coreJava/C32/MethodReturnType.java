@@ -9,6 +9,7 @@ class MethodReturnType{
         System.out.print("Enter the second number: ");
         int num2 = scanner.nextInt();
         int result = num1 + num2;
+        scanner.close();
         return result;
     }
 

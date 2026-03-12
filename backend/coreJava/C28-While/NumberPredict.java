@@ -40,5 +40,7 @@ class NumberPredict{
 
             if(count == (maxChances + 1)) System.out.println("Game over! The number was: " + num);
         }
+
+        scanner.close();
     }
 }

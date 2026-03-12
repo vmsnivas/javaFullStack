@@ -1,5 +1,4 @@
 // Develop a program to check whether a number Even or Odd without using modulo operator
-import java.util.Scanner;
 
 class EvenOdd{
     public static void main(String[] args){

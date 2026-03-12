@@ -9,6 +9,7 @@ class MethodVoid{
         int num2 = scanner.nextInt();
         int result = num1 + num2;
         System.out.println("The sum of " + num1 + " and " + num2 + " is: " + result);
+        scanner.close();
     }
 
     public static void main(String[] args) {

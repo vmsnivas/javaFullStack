@@ -10,5 +10,7 @@ class EvenOdd{
         String result = (num % 2 == 0) ? "even number" : "odd number";
 
         System.out.println(num + " is an " + result);
+
+        scanner.close();
     }
 }
