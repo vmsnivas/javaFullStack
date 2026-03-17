@@ -33,6 +33,7 @@ Notes are stored under `frontend/`.
 ### CSS
 - [CSS Basics](frontend/css/notes/01-css-basics.md)
 - [CSS Layout & Positioning](frontend/css/notes/02-css-layout.md)
+- [CSS3 Features](frontend/css/notes/03-css3.md)
 
 ### JavaScript
 - [JavaScript Basics](frontend/javascript/notes/01-javascript-basics.md)
