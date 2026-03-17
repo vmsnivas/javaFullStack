@@ -23,6 +23,7 @@ Notes are stored under `backend/coreJava/notes/`.
 - [15 - Object Methods & Menu-driven Programs](backend/coreJava/notes/15-object-methods-menu.md)
 - [16 - Arrays (Single-dimensional)](backend/coreJava/notes/16-arrays-basics.md)
 - [17 - Advanced Arrays (2D, Jagged, Varargs)](backend/coreJava/notes/17-advanced-arrays.md)
+- [18 - Tic Tac Toe (Game Loop & Win Detection)](backend/coreJava/notes/18-tic-tac-toe.md)
 
 ## 🌐 Frontend
 Notes are stored under `frontend/`.
