@@ -82,31 +82,40 @@ class TicTacToe {
         TicTacToe ttt = new TicTacToe();
         Scanner scanner = new Scanner(System.in);
 
-        while(ttt.isGameActive) {
+        while (ttt.isGameActive) {
             ttt.printBoard();
 
-            if(ttt.clicks == 9){
+            if (ttt.clicks == 9) {
+                ttt.printBoard();
                 System.out.println("Game Drawn.\nPlease restart the game.");
+                ttt.isGameActive = false;
                 break;
             }
 
             System.out.println("\nPlayer " + ttt.player + " enter your cell number.");
+            if (!scanner.hasNextInt()) {
+                System.out.println("Please enter a valid number (1-9).");
+                scanner.next(); // consume invalid input
+                continue;
+            }
+
             int num = scanner.nextInt();
 
-            if((num >= 1 && num <= 9) && (ttt.cells[num - 1].equals(""))){
+            if (num >= 1 && num <= 9 && ttt.cells[num - 1].equals("")) {
                 ttt.cells[num - 1] = ttt.player;
                 ttt.clicks++;
                 ttt.checkWinner(ttt.player);
 
-                if(ttt.player == "O") ttt.player = "X";
+                if ("O".equals(ttt.player)) ttt.player = "X";
                 else ttt.player = "O";
 
-            }
-            else {
+            } else {
 
-                System.out.println("Wrong choice!!!");
+                System.out.println("Wrong choice!!! Choose an empty cell between 1 and 9.");
 
             }
         }
+
+        scanner.close();
     }
 }

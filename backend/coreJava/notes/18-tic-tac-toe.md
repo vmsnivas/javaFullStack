@@ -27,6 +27,8 @@ The board is stored in a `String[]` of length 9. Each cell is either "" (empty),
 - **String comparison**: Use `.equals(...)` to compare string values (`player.equals("O")`) rather than `==`, which compares object references.
 - **Array indexing**: User inputs are 1–9 but array indices are 0–8. Convert with `num - 1`.
 - **Input validation**: Always ensure the chosen cell is within the valid range and unoccupied.
+- **Robust input handling**: The program should gracefully handle non-numeric input (e.g., "a"), otherwise it will throw an exception.
+- **Resource cleanup**: Close the `Scanner` when done to avoid leaking the underlying input stream.
 - **Infinite loops**: Ensure the game state (`isGameActive`) is updated when the game ends.
 
 ## Example snippet (win check)
