@@ -28,5 +28,5 @@ System.out.println((num/2) + " is left now. Woohoo I read your brain!");
 ```
 
 ## Example files
-- `code/C18/BrainTeaser.java` (interactive number game with random value)
-- `code/C18/CelciusToFH.java` (temperature conversion alongside user input)
+- [code/C18/BrainTeaser.java](../code/C18/BrainTeaser.java) (interactive number game with random value)
+- [code/C18/CelciusToFH.java](../code/C18/CelciusToFH.java) (temperature conversion alongside user input)

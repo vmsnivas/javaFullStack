@@ -36,6 +36,6 @@ while (num <= 5) {
 ```
 
 ## Example files
-- `code/C27-Switch/Day.java` (select day of week via `switch`)
-- `code/C27-Switch/EvenOdd.java` (determine even/odd using `switch`)
-- `code/C27-Switch/WhileLoop.java` (basic `while` loop printing text)
+- [code/C27-Switch/Day.java](../code/C27-Switch/Day.java) (select day of week via `switch`)
+- [code/C27-Switch/EvenOdd.java](../code/C27-Switch/EvenOdd.java) (determine even/odd using `switch`)
+- [code/C27-Switch/WhileLoop.java](../code/C27-Switch/WhileLoop.java) (basic `while` loop printing text)

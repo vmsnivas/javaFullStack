@@ -22,8 +22,8 @@ for (int i = 0; i < nums.length; i++) {
 ```
 
 ## Example files
-- `code/C37/Arrays.java` (declare and initialize an array)
-- `code/C37/SumOfAllElements.java` (sum array elements)
-- `code/C37/LargestNum.java` (find max element)
-- `code/C37/SmallestNum.java` (find min element)
-- `code/C37/Count.java` (count elements meeting a condition)
+- [code/C37/Arrays.java](../code/C37/Arrays.java) (declare and initialize an array)
+- [code/C37/SumOfAllElements.java](../code/C37/SumOfAllElements.java) (sum array elements)
+- [code/C37/LargestNum.java](../code/C37/LargestNum.java) (find max element)
+- [code/C37/SmallestNum.java](../code/C37/SmallestNum.java) (find min element)
+- [code/C37/Count.java](../code/C37/Count.java) (count elements meeting a condition)

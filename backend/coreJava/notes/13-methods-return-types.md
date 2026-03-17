@@ -24,6 +24,6 @@ int sum = add(2, 3);
 ```
 
 ## Example files
-- `code/C32/MethodVoid.java` (void methods, no return)
-- `code/C32/MethodReturnType.java` (methods returning values)
-- `code/C32/SBI.java` (simple class with methods for bank-like operations)
+- [code/C32/MethodVoid.java](../code/C32/MethodVoid.java) (void methods, no return)
+- [code/C32/MethodReturnType.java](../code/C32/MethodReturnType.java) (methods returning values)
+- [code/C32/SBI.java](../code/C32/SBI.java) (simple class with methods for bank-like operations)

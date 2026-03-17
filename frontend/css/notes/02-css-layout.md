@@ -35,7 +35,7 @@ Floating elements (`float: left/right`) allow other content to wrap around them.
 - `background-image`: images as backgrounds.
 
 ## Example files
-- `code/box.html` + `code/box.css` (box model examples)
-- `code/float.html` + `code/float.css` (float layout)
-- `code/c1_567-flex.html` + `code/flex.css` (flexbox layout)
-- `code/c18-bgVideo.html` (background video example)
+- [code/box.html](../code/box.html) + [code/box.css](../code/box.css) (box model examples)
+- [code/float.html](../code/float.html) + [code/float.css](../code/float.css) (float layout)
+- [code/c1_567-flex.html](../code/c1_567-flex.html) + [code/flex.css](../code/flex.css) (flexbox layout)
+- [code/c18-bgVideo.html](../code/c18-bgVideo.html) (background video example)

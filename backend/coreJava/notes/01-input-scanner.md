@@ -39,4 +39,4 @@ class Main {
 ```
 
 ## Example files
-- `code/C16-Input/Main.java` (reads two doubles and multiplies them)
+- [code/C16-Input/Main.java](../code/C16-Input/Main.java) (reads two doubles and multiplies them)

@@ -25,6 +25,6 @@ if (year % 100 == 0) {
 ```
 
 ## Example files
-- `code/C26/LeapYear.java` (nested `if` for leap-year rules)
-- `code/C26/Day.java` (multiple `else if` branches for day mapping)
-- `code/C26/Largest.java` (nested comparisons for finding the largest number)
+- [code/C26/LeapYear.java](../code/C26/LeapYear.java) (nested `if` for leap-year rules)
+- [code/C26/Day.java](../code/C26/Day.java) (multiple `else if` branches for day mapping)
+- [code/C26/Largest.java](../code/C26/Largest.java) (nested comparisons for finding the largest number)

@@ -31,4 +31,4 @@ while (count <= maxChances) {
 ```
 
 ## Example files
-- `code/C28-While/NumberPredict.java` (number guessing game using `while`)
+- [code/C28-While/NumberPredict.java](../code/C28-While/NumberPredict.java) (number guessing game using `while`)

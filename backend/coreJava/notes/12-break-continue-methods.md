@@ -29,7 +29,7 @@ int add(int a, int b) {
 ```
 
 ## Example files
-- `code/C31/Break.java` (`break` inside loops)
-- `code/C31/Continue.java` (`continue` inside loops)
-- `code/C31/Label.java` (labeled `break` / `continue`)
-- `code/C31/MethodAdd.java` (simple method for addition)
+- [code/C31/Break.java](../code/C31/Break.java) (`break` inside loops)
+- [code/C31/Continue.java](../code/C31/Continue.java) (`continue` inside loops)
+- [code/C31/Label.java](../code/C31/Label.java) (labeled `break` / `continue`)
+- [code/C31/MethodAdd.java](../code/C31/MethodAdd.java) (simple method for addition)

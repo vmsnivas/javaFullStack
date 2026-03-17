@@ -28,6 +28,6 @@ if (x % 2 == 0) {
 ```
 
 ## Example files
-- `code/C19-Conditions/EvenOddIf.java` (check even/odd using `if`)
-- `code/C19-Conditions/EvenOddIfElse.java` (same with `else` branch)
-- `code/C19-Conditions/Largest.java` (find largest of three numbers)
+- [code/C19-Conditions/EvenOddIf.java](../code/C19-Conditions/EvenOddIf.java) (check even/odd using `if`)
+- [code/C19-Conditions/EvenOddIfElse.java](../code/C19-Conditions/EvenOddIfElse.java) (same with `else` branch)
+- [code/C19-Conditions/Largest.java](../code/C19-Conditions/Largest.java) (find largest of three numbers)

@@ -22,4 +22,4 @@ tSystem.out.println(result);
 ```
 
 ## Example files
-- `code/C21/Subtraction.java` (subtract two numbers without the `-` sign)
+- [code/C21/Subtraction.java](../code/C21/Subtraction.java) (subtract two numbers without the `-` sign)

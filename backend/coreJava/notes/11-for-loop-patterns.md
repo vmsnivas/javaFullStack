@@ -25,12 +25,12 @@ for (int i = 2; i <= num / 2; i++) {
 ```
 
 ## Example files
-- `code/C29-For/For.java` (basic `for` loop usage)
-- `code/C29-For/Prime.java` (prime number check)
-- `code/C29-For/Palindrome.java` (reverse and compare numbers)
-- `code/C29-For/Armstrong.java` (Armstrong number check)
-- `code/C29-For/NumberReverse.java` (reverse digits)
-- `code/C29-For/Square.java` (printing square patterns)
-- `code/C29-For/SumOfDigits.java` (sum digits of a number)
-- `code/C29-For/Perfect.java` (perfect number check)
-- `code/C29-For/HCF.java` and `code/C29-For/LCM.java` (gcd/lcm calculations)
+- [code/C29-For/For.java](../code/C29-For/For.java) (basic `for` loop usage)
+- [code/C29-For/Prime.java](../code/C29-For/Prime.java) (prime number check)
+- [code/C29-For/Palindrome.java](../code/C29-For/Palindrome.java) (reverse and compare numbers)
+- [code/C29-For/Armstrong.java](../code/C29-For/Armstrong.java) (Armstrong number check)
+- [code/C29-For/NumberReverse.java](../code/C29-For/NumberReverse.java) (reverse digits)
+- [code/C29-For/Square.java](../code/C29-For/Square.java) (printing square patterns)
+- [code/C29-For/SumOfDigits.java](../code/C29-For/SumOfDigits.java) (sum digits of a number)
+- [code/C29-For/Perfect.java](../code/C29-For/Perfect.java) (perfect number check)
+- [code/C29-For/HCF.java](../code/C29-For/HCF.java) and [code/C29-For/LCM.java](../code/C29-For/LCM.java) (gcd/lcm calculations)

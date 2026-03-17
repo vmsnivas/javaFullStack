@@ -27,6 +27,6 @@ System.out.println("Area of circle is : " + area);
 ```
 
 ## Example files
-- `code/C17/AreaOfCircle.java` (calculate area of a circle)
-- `code/C17/DaysToYear.java` (convert days to years)
-- `code/C17/TimeConversion.java` (convert minutes/seconds/timing)
+- [code/C17/AreaOfCircle.java](../code/C17/AreaOfCircle.java) (calculate area of a circle)
+- [code/C17/DaysToYear.java](../code/C17/DaysToYear.java) (convert days to years)
+- [code/C17/TimeConversion.java](../code/C17/TimeConversion.java) (convert minutes/seconds/timing)

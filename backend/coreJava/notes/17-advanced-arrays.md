@@ -33,9 +33,9 @@ int sum(int... nums) {
 ```
 
 ## Example files
-- `code/C38/Arrays2D.java` (2D array traversal)
-- `code/C38/JaggedArray.java` (jagged array example)
-- `code/C38/ForLoopArrays.java` (for-loop traversal of arrays)
-- `code/C38/ReturnArray.java` (method returns an array)
-- `code/C38/VarArgs.java` (use of variable arguments in methods)
-- `code/C38/Sum.java` (sum values, likely using arrays or varargs)
+- [code/C38/Arrays2D.java](../code/C38/Arrays2D.java) (2D array traversal)
+- [code/C38/JaggedArray.java](../code/C38/JaggedArray.java) (jagged array example)
+- [code/C38/ForLoopArrays.java](../code/C38/ForLoopArrays.java) (for-loop traversal of arrays)
+- [code/C38/ReturnArray.java](../code/C38/ReturnArray.java) (method returns an array)
+- [code/C38/VarArgs.java](../code/C38/VarArgs.java) (use of variable arguments in methods)
+- [code/C38/Sum.java](../code/C38/Sum.java) (sum values, likely using arrays or varargs)

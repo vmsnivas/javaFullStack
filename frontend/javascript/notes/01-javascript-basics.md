@@ -24,4 +24,4 @@ console.log(typeof name);
 ```
 
 ## Example files
-- `code/C01/01sample.js` (basic variables and `console.log` output)
+- [code/C01/01sample.js](../code/C01/01sample.js) (basic variables and `console.log` output)

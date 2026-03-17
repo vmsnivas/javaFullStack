@@ -23,8 +23,8 @@ for (int i = 1; i <= n; i++) {
 ```
 
 ## Example files
-- `code/C33/RightHalfPyramid.java` (right-aligned pyramid)
-- `code/C33/RightHalfNumberPyramid.java` (numbers in pyramid)
-- `code/C33/ReverseRightHalfPyramid.java` (inverted pyramid)
-- `code/C33/SquareFillPattern.java` (filled square)
-- `code/C33/TriangularPyramid.java` (triangle of numbers)
+- [code/C33/RightHalfPyramid.java](../code/C33/RightHalfPyramid.java) (right-aligned pyramid)
+- [code/C33/RightHalfNumberPyramid.java](../code/C33/RightHalfNumberPyramid.java) (numbers in pyramid)
+- [code/C33/ReverseRightHalfPyramid.java](../code/C33/ReverseRightHalfPyramid.java) (inverted pyramid)
+- [code/C33/SquareFillPattern.java](../code/C33/SquareFillPattern.java) (filled square)
+- [code/C33/TriangularPyramid.java](../code/C33/TriangularPyramid.java) (triangle of numbers)

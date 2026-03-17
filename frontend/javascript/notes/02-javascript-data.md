@@ -31,5 +31,5 @@ console.log(employees.length);
 ```
 
 ## Example files
-- `code/C02/01object.js` (object literal and property access)
-- `code/C02/02array.js` (array indexing and `.length`)
+- [code/C02/01object.js](../code/C02/01object.js) (object literal and property access)
+- [code/C02/02array.js](../code/C02/02array.js) (array indexing and `.length`)

@@ -23,4 +23,4 @@ System.out.println("OTP for account verification is : " + otp);
 ```
 
 ## Example files
-- `code/C25/Otp.java` (generate a 6-digit OTP)
+- [code/C25/Otp.java](../code/C25/Otp.java) (generate a 6-digit OTP)

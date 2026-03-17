@@ -23,5 +23,5 @@ while (true) {
 ```
 
 ## Example files
-- `code/C34/ParamsCalculator.java` (calculator using instance methods)
-- `code/C34/Game.java` (skeleton of a game using methods and loops)
+- [code/C34/ParamsCalculator.java](../code/C34/ParamsCalculator.java) (calculator using instance methods)
+- [code/C34/Game.java](../code/C34/Game.java) (skeleton of a game using methods and loops)

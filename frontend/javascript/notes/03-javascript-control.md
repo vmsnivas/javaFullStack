@@ -45,9 +45,9 @@ greet('Arjun');
 ```
 
 ## Example files
-- `code/C04/01conditions.js` (conditional branching)
-- `code/C04/02switch.js` (switch statement)
-- `code/C04/03for.js` (for loop)
-- `code/C04/04while.js` (while loop)
-- `code/C04/05doWhile.js` (do..while loop)
-- `code/C03/01function.js` (function definition and invocation)
+- [code/C04/01conditions.js](../code/C04/01conditions.js) (conditional branching)
+- [code/C04/02switch.js](../code/C04/02switch.js) (switch statement)
+- [code/C04/03for.js](../code/C04/03for.js) (for loop)
+- [code/C04/04while.js](../code/C04/04while.js) (while loop)
+- [code/C04/05doWhile.js](../code/C04/05doWhile.js) (do..while loop)
+- [code/C03/01function.js](../code/C03/01function.js) (function definition and invocation)

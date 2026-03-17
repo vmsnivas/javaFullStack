@@ -22,6 +22,6 @@ else System.out.println("Unsupported operation!");
 ```
 
 ## Example files
-- `code/C20/SimpleCalculator.java` (basic calculator using `if` chains)
-- `code/C20/VotingAge.java` (check eligibility to vote)
-- `code/C20/MarriageAge.java` (check marriage eligibility)
+- [code/C20/SimpleCalculator.java](../code/C20/SimpleCalculator.java) (basic calculator using `if` chains)
+- [code/C20/VotingAge.java](../code/C20/VotingAge.java) (check eligibility to vote)
+- [code/C20/MarriageAge.java](../code/C20/MarriageAge.java) (check marriage eligibility)

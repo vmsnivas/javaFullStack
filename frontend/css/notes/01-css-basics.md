@@ -29,7 +29,7 @@ CSS selectors target elements to apply styles.
 ```
 
 ## Example files
-- `code/01inline.html` (inline styles)
-- `code/02internal.html` (internal `<style>` block)
-- `code/03external.html` (external stylesheet)
-- `code/style.css` (example stylesheet)
+- [code/01inline.html](../code/01inline.html) (inline styles)
+- [code/02internal.html](../code/02internal.html) (internal `<style>` block)
+- [code/03external.html](../code/03external.html) (external stylesheet)
+- [code/style.css](../code/style.css) (example stylesheet)
