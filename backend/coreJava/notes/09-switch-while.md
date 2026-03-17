@@ -3,6 +3,9 @@
 ## Overview
 This note covers two related topics: using `switch` for multi-way branching and using `while` loops for repeated execution.
 
+## Why it matters
+Multi-way branching and loops are among the most common control flow structures. `switch` statements can make complex selections easier to read, and loops are essential for repetition.
+
 ## `switch` / `case`
 - Ideal when you need to select behavior based on a single value (e.g., integers, enums, strings).
 - Each `case` should end with `break` to prevent fall-through.
@@ -15,6 +18,11 @@ This note covers two related topics: using `switch` for multi-way branching and 
 ## Common Pitfalls
 - Forgetting `break` in a `switch` causes fall-through to subsequent cases.
 - `while(true)` creates an infinite loop unless you `break` or change the condition inside the loop.
+
+## How it works
+A `switch` compares a single value against multiple `case` labels. Execution begins at the matching case and continues until a `break` is reached or the switch ends.
+
+A `while` loop evaluates its condition before each iteration. The loop body runs only when the condition is true.
 
 ## Example snippet (`switch` usage)
 ```java

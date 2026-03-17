@@ -3,6 +3,9 @@
 ## Overview
 Conditionals let your program make decisions. Depending on boolean expressions, you can execute different paths of code.
 
+## Why it matters
+Decision-making is fundamental to almost every program—conditionals let code respond differently based on user input, computation results, or state.
+
 ## Key Concepts
 - `if (condition) { ... }` executes the block only when `condition` is true.
 - `else if (condition) { ... }` provides additional branches when prior conditions are false.
@@ -16,6 +19,10 @@ Conditionals let your program make decisions. Depending on boolean expressions, 
 - Use `==` for primitive comparisons; use `.equals(...)` when comparing strings.
 - Be careful with operator precedence: `&&` has higher precedence than `||`.
 - Avoid deeply nested `if` blocks; consider breaking logic into methods or using `switch` when appropriate.
+- Comparing floating point values with `==` can be unreliable due to precision issues; use a tolerance.
+
+## How it works
+The condition inside `if (...)` must evaluate to a boolean (`true` or `false`). Java automatically converts boolean expressions (like `x > 5`) to `true/false`.
 
 ## Example snippet
 ```java

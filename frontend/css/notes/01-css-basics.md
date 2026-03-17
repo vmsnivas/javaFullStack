@@ -19,6 +19,11 @@ CSS selectors target elements to apply styles.
 - Styles are applied based on specificity (ID > class > element).
 - Later rules override earlier ones if they have equal specificity.
 
+## Common Pitfalls
+- Inline styles override external styles, making them hard to override.
+- Overusing `!important` makes stylesheet behavior unpredictable.
+- Forgetting that `id` selectors are more specific than class selectors.
+
 ## Example snippet
 ```css
 .button {

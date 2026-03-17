@@ -3,6 +3,9 @@
 ## Overview
 This note covers multidimensional arrays (including jagged arrays) and variable-length argument lists (varargs), plus returning arrays from methods.
 
+## Why it matters
+Multidimensional arrays and varargs are common in real applications (grids, matrices, and flexible argument lists). Understanding them helps you model and process complex data.
+
 ## Key Concepts
 - 2D arrays are arrays of arrays (e.g., `int[][] matrix = new int[3][4];`).
 - Iterate using nested loops: outer loop for rows, inner loop for columns.
@@ -12,6 +15,9 @@ This note covers multidimensional arrays (including jagged arrays) and variable-
 ## Common Pitfalls
 - Assuming all rows in a 2D array have the same length (not true for jagged arrays).
 - Returning an array reference allows callers to mutate internal state unless you copy the array.
+
+## How it works
+A 2D array is really an array of arrays. You can think of it as rows pointing to independent arrays. Varargs (`int... args`) are syntactic sugar: the compiler creates an array behind the scenes, allowing callers to pass a comma-separated list of values.
 
 ## Example snippet (2D traversal)
 ```java

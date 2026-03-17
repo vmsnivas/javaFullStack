@@ -3,6 +3,9 @@
 ## Overview
 This section applies conditional logic to common real-world tasks like implementing a simple calculator and checking eligibility rules.
 
+## Why it matters
+Branching logic is central to user-facing applications where decisions depend on input, user selections, and business rules.
+
 ## Key Concepts
 - Use chained `if` / `else if` / `else` to evaluate multiple cases.
 - Check input validity and handle unexpected values gracefully.
@@ -12,6 +15,9 @@ This section applies conditional logic to common real-world tasks like implement
 - When comparing characters, use `'+'` not `"+"` (string). Characters are compared using `==`.
 - Always include an `else` branch when user input could be invalid.
 - For calculators, avoid dividing by zero; validate the divisor.
+
+## How it works
+`if`/`else if`/`else` chains are evaluated top-down. The first condition that evaluates to `true` wins and its block executes; the rest of the chain is skipped. This allows you to express mutually exclusive cases cleanly.
 
 ## Example snippet (calculator branch)
 ```java

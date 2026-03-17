@@ -3,6 +3,9 @@
 ## Overview
 This note explores controlling loop execution with `break` and `continue`, and demonstrates basic method creation for reusable code.
 
+## Why it matters
+Understanding loop control helps you write correct, efficient loops, and methods are essential for organizing code and avoiding duplication.
+
 ## Key Concepts
 - `break` immediately exits the nearest loop.
 - `continue` skips the rest of the current loop iteration and jumps to the next iteration.
@@ -12,6 +15,9 @@ This note explores controlling loop execution with `break` and `continue`, and d
 ## Common Pitfalls
 - Overusing `break`/`continue` can make loops harder to reason about; prefer clear loop conditions when possible.
 - Labeled loops can be confusing; use sparingly and consider refactoring into separate methods.
+
+## How it works
+`break` exits the nearest loop immediately. `continue` skips to the next iteration of the current loop. With labels, you can target outer loops explicitly, but this is usually a sign that the logic should be refactored.
 
 ## Example snippet (continue)
 ```java

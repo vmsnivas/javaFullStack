@@ -3,6 +3,9 @@
 ## Overview
 Arrays let you store multiple values of the same type in a contiguous block of memory. They provide fast indexed access but have a fixed size once created.
 
+## Why it matters
+Arrays are a fundamental data structure. Many algorithms and data structures are built on top of arrays, and understanding their limits (fixed size, O(1) access) is essential.
+
 ## Key Concepts
 - Declaration: `int[] nums;`
 - Initialization: `int[] nums = new int[5];` or `int[] nums = {1, 2, 3};`
@@ -12,6 +15,9 @@ Arrays let you store multiple values of the same type in a contiguous block of m
 ## Common Pitfalls
 - Accessing an index outside the valid range (`0` to `length - 1`) throws `ArrayIndexOutOfBoundsException`.
 - Arrays are mutable; modifying one reference modifies the underlying data.
+
+## How it works
+Arrays are stored as a contiguous block of memory. The `length` property gives the number of elements. Accessing elements uses 0-based indexing, so the first element is `array[0]` and the last is `array[array.length - 1]`.
 
 ## Example snippet (sum calculation)
 ```java

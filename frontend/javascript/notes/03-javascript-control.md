@@ -44,6 +44,11 @@ function greet(name) {
 greet('Arjun');
 ```
 
+## Common Pitfalls
+- Confusing `==` (loose equality) with `===` (strict equality) can cause hard-to-find bugs.
+- Forgetting to declare variables (`var`, `let`, `const`) creates implicit globals.
+- Arrow functions (`=>`) do not have their own `this` value, which changes behavior in callbacks.
+
 ## Example files
 - [code/C04/01conditions.js](../code/C04/01conditions.js) (conditional branching)
 - [code/C04/02switch.js](../code/C04/02switch.js) (switch statement)

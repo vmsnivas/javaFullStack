@@ -3,6 +3,9 @@
 ## Overview
 This note covers how to generate a fixed-width numeric one-time password (OTP) using Java's pseudo-random number generators. The example demonstrates a simple approach to create a 6-digit code.
 
+## Why it matters
+Generating random and formatted values is a common task in utilities, games, and input validation. Understanding ranges and bounds prevents subtle off-by-one errors.
+
 ## Key Concepts
 - `java.util.Random` generates pseudo-random values. It is not cryptographically secure but is fine for simple practice programs.
 - To create a fixed-width number of digits:
@@ -14,6 +17,9 @@ This note covers how to generate a fixed-width numeric one-time password (OTP) u
 - `Random.nextInt(0)` throws `IllegalArgumentException`.
 - `nextInt(999999)` yields `0..999998`, so it doesn’t guarantee 6 digits. Always use proper bounds.
 - For real-world security, use `java.security.SecureRandom`.
+
+## How it works
+`Random` generates a deterministic sequence of values based on an initial seed. By default, Java seeds it with the current time in milliseconds, so you get different numbers each run. When you need repeatable results (for testing), provide a fixed seed.
 
 ## Example snippet
 ```java

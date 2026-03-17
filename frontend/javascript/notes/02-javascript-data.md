@@ -30,6 +30,11 @@ console.log(employees[0]);
 console.log(employees.length);
 ```
 
+## Common Pitfalls
+- Objects are referenced by pointer; assigning one object to another shares the same reference.
+- Arrays are also reference types—mutating a copied array will affect the original if you don’t clone it.
+- Accessing an out-of-range array index returns `undefined`, not an error.
+
 ## Example files
 - [code/C02/01object.js](../code/C02/01object.js) (object literal and property access)
 - [code/C02/02array.js](../code/C02/02array.js) (array indexing and `.length`)

@@ -94,6 +94,16 @@ These elements help describe the purpose of the content:
 
 ---
 
-### Notes
+### Common Pitfalls
+- Forgetting to close tags (e.g., `<div>`) can break page layout.
+- Using non-semantic tags (`<div>`) instead of semantic tags (`<header>`, `<main>`) reduces accessibility.
+- Missing `alt` text on images hurts screen-reader usability.
+
+## Example files
+- [code/01-basics.html](../code/01-basics.html) (basic HTML structure and layout)
+- [code/courses.html](../code/courses.html) (simple course list layout)
+- [code/layout.html](../code/layout.html) (page layout with images and tables)
+
+## Notes
 - Use semantic tags to improve accessibility and SEO.
 - Keep the HTML structure logical and well-indented.

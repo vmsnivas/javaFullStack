@@ -3,6 +3,9 @@
 ## Overview
 Nested conditionals allow you to make decisions based on multiple layers of logic. They are useful when later checks depend on earlier outcomes.
 
+## Why it matters
+Many real-world decisions depend on a sequence of checks (e.g., validation rules, configuration hierarchies). Nested logic is how you express those layered decisions.
+
 ## Key Concepts
 - A leap year is:
   - divisible by 4 AND (not divisible by 100 OR divisible by 400).
@@ -12,6 +15,9 @@ Nested conditionals allow you to make decisions based on multiple layers of logi
 ## Common Pitfalls
 - Too much nesting makes code hard to read; consider extracting logic into well-named methods.
 - Forgetting to handle invalid input (e.g., day numbers outside 1-7).
+
+## How it works
+Nested conditionals evaluate each `if` condition only when its containing condition is true. This allows you to build multi-step logic (e.g., first verify a year is divisible by 100, then check divisibility by 400).
 
 ## Example snippet (leap year check)
 ```java

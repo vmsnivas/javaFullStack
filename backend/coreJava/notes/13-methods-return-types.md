@@ -3,6 +3,9 @@
 ## Overview
 Methods are the building blocks of Java programs. They allow you to encapsulate behavior, avoid duplication, and create reusable abstractions.
 
+## Why it matters
+Methods enable modular design, which makes code easier to test, read, and maintain. Return values let methods communicate results back to callers.
+
 ## Key Concepts
 - Method signature: `access modifiers` + `return type` + `name` + `(parameters)`.
 - `void` methods perform actions and do not return a value.
@@ -12,6 +15,9 @@ Methods are the building blocks of Java programs. They allow you to encapsulate 
 ## Common Pitfalls
 - Forgetting to return a value from a non-void method leads to a compile-time error.
 - Not using parameters can reduce method reusability.
+
+## How it works
+Methods define a contract: input parameters (if any) and an output type. When a method is called, execution jumps to the method body and returns to the caller when it completes, optionally passing back a value.
 
 ## Example snippet (returning a value)
 ```java

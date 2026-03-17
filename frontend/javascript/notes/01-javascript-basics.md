@@ -16,6 +16,11 @@ JavaScript is the primary programming language of the web. It runs in browsers a
 - Use `console.log()` to print values.
 - `typeof` returns a string describing the value type.
 
+## Common Pitfalls
+- `var` is function-scoped and can cause unexpected hoisting behavior.
+- `==` performs type coercion; prefer `===` for strict equality.
+- `null` and `undefined` are different values but both are falsy.
+
 ## Example snippet
 ```js
 var name = 'Arjun';

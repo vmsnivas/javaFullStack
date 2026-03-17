@@ -1,23 +1,38 @@
 # 01 - Input (Scanner)
 
 ## Overview
-`Scanner` is the standard way in Java to read user input from the console (`System.in`). It can parse primitives, strings, and tokens, making it easy to build interactive command-line programs.
+`java.util.Scanner` is the standard Java utility for reading user input from the console (`System.in`). It can parse tokens into primitive types and strings, which makes it ideal for simple interactive programs and learning exercises.
 
-## Key Concepts
-- Import `java.util.Scanner`.
-- Create a `Scanner` instance: `Scanner sc = new Scanner(System.in);`.
-- Common methods:
-  - `nextInt()` – reads an `int` token.
-  - `nextDouble()` – reads a `double` token.
-  - `nextLine()` – reads the rest of the current line (including spaces).
-  - `next()` – reads the next token (delimited by whitespace).
-- Always call `sc.close()` when done, to release underlying resources.
+## Why it matters
+Most command-line programs need to accept user input. `Scanner` lets you build menus, read numbers, and handle text input with minimal boilerplate.
+
+## Core Concepts
+### Creating a Scanner
+```java
+Scanner sc = new Scanner(System.in);
+```
+
+### Common methods
+- `nextInt()` — reads the next token as an integer
+- `nextDouble()` — reads the next token as a double
+- `next()` — reads the next token as a string (whitespace-delimited)
+- `nextLine()` — reads the remainder of the current line (including spaces)
+
+### Closing the scanner
+Always close the scanner when done to release the underlying input stream:
+```java
+sc.close();
+```
+
+## How it works
+`Scanner` uses whitespace as a delimiter by default. Each token separated by spaces/tabs/newlines is returned by `next()` (or parsed by typed methods like `nextInt()`).
 
 ## Common Gotchas
-- Mixing `nextInt()`/`nextDouble()` and `nextLine()` can cause input to be skipped (because `nextInt()` leaves the newline in the buffer). Use an extra `sc.nextLine()` to consume the newline when switching from token-based reads to line-based reads.
-- `Scanner` is not thread-safe. Avoid sharing a single `Scanner` across threads.
+- **Newline handling**: `nextInt()` and `nextDouble()` leave the newline character in the stream, so a following `nextLine()` may return an empty string. Fix: call `sc.nextLine()` after `nextInt()` to consume the remaining newline.
+- **Exceptions**: If the next token cannot be parsed to the requested type (e.g., user enters `hello` and you call `nextInt()`), `InputMismatchException` is thrown.
+- **Thread safety**: `Scanner` is not thread-safe. Use separate scanners in each thread or synchronize access.
 
-## Example
+## Example (interactive input)
 ```java
 import java.util.Scanner;
 
@@ -25,13 +40,13 @@ class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("Please enter First number");
-        double a = sc.nextDouble();
+        System.out.print("Enter your name: ");
+        String name = sc.nextLine();
 
-        System.out.println("Please enter Second number");
-        double b = sc.nextDouble();
+        System.out.print("Enter your age: ");
+        int age = sc.nextInt();
 
-        System.out.println("Multiplication of a & b is : " + (a * b));
+        System.out.println("Hello " + name + ", age " + age);
 
         sc.close();
     }

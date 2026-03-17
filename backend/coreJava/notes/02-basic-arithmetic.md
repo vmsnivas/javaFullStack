@@ -3,6 +3,9 @@
 ## Overview
 This section demonstrates how to read numeric values from the console, perform arithmetic operations, and print results. It covers operator precedence, integer vs floating-point division, and basic formatting of output.
 
+## Why it matters
+Numerical computation is a core part of many programs (finance, physics, data processing). Understanding how Java handles numeric types and operators helps avoid subtle bugs and ensures accurate results.
+
 ## Key Concepts
 - Arithmetic operators:
   - `+` (addition)
@@ -17,6 +20,11 @@ This section demonstrates how to read numeric values from the console, perform a
 ## Common Pitfalls
 - Dividing two `int` values gives an integer result even if you expect a decimal. Cast to `double` or use `nextDouble()` to avoid this.
 - String concatenation with `+` is evaluated left-to-right. Use parentheses when combining arithmetic with strings.
+- Using `Math.pow()` with integers returns a `double` and may require casting.
+
+## How it works
+- Java evaluates expressions using standard operator precedence (multiplication before addition).
+- Use parentheses to make order of operations explicit.
 
 ## Example (area calculation)
 ```java
