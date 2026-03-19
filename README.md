@@ -40,3 +40,7 @@ Notes are stored under `frontend/`.
 - [JavaScript Basics](frontend/javascript/notes/01-javascript-basics.md)
 - [JavaScript Data Structures (Objects & Arrays)](frontend/javascript/notes/02-javascript-data.md)
 - [JavaScript Control Flow & Functions](frontend/javascript/notes/03-javascript-control.md)
+- [ECMAScript (ES) Overview](frontend/javascript/notes/04-javascript-ecmascript.md)
+- [JavaScript Functions](frontend/javascript/notes/05-javascript-functions.md)
+- [JavaScript Built-ins & Methods](frontend/javascript/notes/06-javascript-builtins.md)
+- [Arrays of Objects](frontend/javascript/notes/07-array-of-objects.md)
